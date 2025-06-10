@@ -25,8 +25,9 @@ LID_Native_Sampling/
 ├── hindi_dataset_cleaned.csv      # Native Hindi samples
 ├── lince_train_hi_eng.csv         # Lince training data
 ├── lince_test_hi_eng.csv          # Lince evaluation data
-├── LID_train_ComiLingua.csv       # ComiLingua training
-└── LID_test_ComiLingua.csv        # ComiLingua evaluation
+├── LID_train_ComiLingua.csv
+├── LID_test_ComiLingua.csv      # ComiLingua training
+└── requirements.txt        # ComiLingua evaluation
 ```
 
 
@@ -40,7 +41,7 @@ cd LID_Native_Sampling
 
 2. Install dependencies:
 ```bash
-pip install torch transformers pandas numpy scikit-learn
+pip install -r requirements.txt
 ```
 
 
