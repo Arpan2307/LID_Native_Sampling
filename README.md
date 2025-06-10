@@ -70,7 +70,13 @@ The system supports 12 experimental configurations:
 | 3 | 4k | 4k | 4k | 12k |
 | 4 | 4k | 2k | 2k | 8k |
 | 5 | 2k | 1k | 1k | 4k |
-| ... | ... | ... | ... | ... |
+| 6 | 2k | 2k | - | 4k |
+| 7 | 2k | - | 2k | 4k |
+| 8 | - | 2k | - | 2k |
+| 9 | - | - | 2k | 2k |
+| 10 | - | 4k | 4k | 8k |
+| 11 | - | 2k | 2k | 4k |
+
 
 ## Usage
 
@@ -131,18 +137,4 @@ Test Report:
 weighted avg       0.87      0.87      0.87     10114
 ```
 
-
-## Citation
-
-If using this work, please cite:
-
-```latex
-@misc{LID_Native_Sampling,
-  author = {Arpan},
-  title = {Code-Mixed LID with Native Sample Mixing},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/Arpan2307/LID_Native_Sampling}}
-}
 
