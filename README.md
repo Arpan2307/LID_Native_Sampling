@@ -17,10 +17,10 @@ Key Features:
 
 ```
 LID_Native_Sampling/
-├── main.py              # Lince dataset handler (configs 0-3)
-├── main2.py             # Extended Lince handler (configs 0-4)
-├── main3.py             # ComiLingua dataset handler (configs 0-3)
-├── main4.py             # Extended ComiLingua handler (configs 0-4)
+├── main.py              # Lince dataset handler (configs 0-5)
+├── main2.py             # Extended Lince handler (configs 6-11)
+├── main3.py             # ComiLingua dataset handler (configs 0-5)
+├── main4.py             # Extended ComiLingua handler (configs 6-11)
 ├── english_dataset_cleaned.csv    # Native English samples
 ├── hindi_dataset_cleaned.csv      # Native Hindi samples
 ├── lince_train_hi_eng.csv         # Lince training data
